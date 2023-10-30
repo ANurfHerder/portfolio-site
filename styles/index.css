@@ -1,0 +1,22 @@
+.hero {
+  background-color: #f6ffe2;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "La Belle Aurore", cursive;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-design {
+  border-radius: 10px;
+  color: #d77948;
+  background-color: #e3e7b3;
+  border-color: #e3e7b3;
+  font-size: 18px;
+  padding: 12px 20px;
+  font-weight: 600px;
+}
