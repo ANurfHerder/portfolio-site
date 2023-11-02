@@ -6,6 +6,7 @@
   --color-four: #d77948;
 }
 
+/* Main Banner */
 .hero {
   background-color: var(--color-one);
   text-align: center;
@@ -30,6 +31,8 @@ h2 {
   padding: 6px 10px;
   font-weight: 600px;
 }
+
+/* Featured Content */
 h3 {
   font-family: var(--heading-font);
   font-size: 30px;
@@ -43,16 +46,24 @@ h3 {
   font-weight: 600px;
 }
 p {
-  line-height: 30px;
+  line-height: 25px;
 }
 .proj-description {
   padding: 30px 0px;
+  margin-right: 50px;
+}
+.row {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
+/* Responsive for Phones */
 @media (max-width: 960px) {
   .proj-description {
     padding: 0px;
     text-align: center;
+    margin: auto;
   }
   h1 {
     font-size: 60px;
@@ -64,3 +75,5 @@ p {
     font-size: 16px;
   }
 }
+
+/* Navigation */

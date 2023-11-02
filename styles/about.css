@@ -1,0 +1,44 @@
+:root {
+  --heading-font: "La Belle Aurore", cursive;
+  --color-one: #e3e7b3;
+  --color-two: #f6ffe2;
+  --color-three: #e4ce8e;
+  --color-four: #d77948;
+}
+
+h1 {
+  font-family: var(--heading-font);
+}
+h2 {
+  color: var(--color-four);
+  font-size: 40px;
+  font-family: var(--heading-font);
+}
+h3 {
+  font-size: 20px;
+}
+.self {
+  width: 400px;
+  height: auto;
+}
+.btn-design {
+  border-radius: 10px;
+  color: var(--color-two);
+  background-color: var(--color-four);
+  border-color: var(--color-four);
+  font-size: 18px;
+  padding: 6px 10px;
+  font-weight: 600px;
+}
+
+@media (max-width: 960px) {
+  .self {
+    width: 300px;
+    height: auto;
+  }
+  .skill {
+    width: 20px;
+    height: auto;
+    display: flex;
+  }
+}
