@@ -1,22 +1,40 @@
 :root {
-  --heading-font: "La Belle Aurore", cursive;
-  --color-one: #e3e7b3;
-  --color-two: #f6ffe2;
-  --color-three: #e4ce8e;
-  --color-four: #d77948;
+  --heading-font: "Agbalumo", sans-serif;
+  --second-font: "Fugaz One", sans-serif;
+  --color-one: #f5cab8;
+  --color-two: #fff8f0;
+  --color-three: #e38ca4;
+  --color-four: #cc8902;
 }
-
+/* Navigation */
 h1 {
   font-family: var(--heading-font);
+  color: #cc8902;
+  line-height: 50px;
+  font-size: 60px;
 }
-h2 {
+
+ul {
+  justify-content: space-evenly;
   color: var(--color-four);
-  font-size: 40px;
-  font-family: var(--heading-font);
 }
-h3 {
-  font-size: 20px;
+li {
+  font-family: var(--second-font);
+  line-height: 70px;
 }
+a {
+  text-decoration: none;
+  color: var(--color-four) !important;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #6e4b03 !important;
+}
+/* Body */
+body {
+  background-color: var(--color-two);
+}
+
 .self {
   width: 400px;
   height: auto;
