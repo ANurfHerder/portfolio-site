@@ -10,7 +10,7 @@
 /* Banner */
 .banner {
   background-color: var(--color-one);
-  overflow: hidden;
+  overflow: hidden !important;
   position: relative;
 }
 span {
@@ -59,6 +59,9 @@ span {
 }
 
 /* Navigation */
+.nav {
+  max-width: 100%;
+}
 h1 {
   font-family: var(--heading-font);
   color: #cc8902;
