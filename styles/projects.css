@@ -145,15 +145,6 @@ button {
   display: block;
   margin: 0 auto;
 }
-footer {
-  margin: 30px 400px;
-}
-.contact-box {
-  background-color: var(--color-one);
-  border-radius: 10px;
-
-  font-family: var(--third-font);
-}
 
 /* Responsive for Phones */
 @media (max-width: 960px) {
