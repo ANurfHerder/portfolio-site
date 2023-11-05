@@ -144,13 +144,13 @@ button {
   }
   h1 {
     font-size: 50px;
+    text-align: center;
   }
-  .row {
-    margin-top: 10px;
+  h2 {
+    font-size: 20px;
   }
-  .container {
-    margin-top: -80px;
-    margin-left: 10px;
+  .project {
+    margin: 25px;
   }
 }
 

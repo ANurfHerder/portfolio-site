@@ -98,14 +98,24 @@ img {
   height: 100%;
 }
 @media (max-width: 960px) {
+  .container {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
   h2 {
     padding-top: 0px;
+    font-size: 20px;
   }
   h3 {
     font-size: 15px;
   }
+  p {
+    font-size: 16px;
+  }
   .left {
-    margin: 0px;
+    margin: 0px 20px;
   }
 }
 .custom-shape-divider-bottom-1699139842 {
