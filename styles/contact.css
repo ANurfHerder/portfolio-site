@@ -53,12 +53,12 @@ body {
 h1 {
   font-family: var(--heading-font);
   color: var(--color-three);
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   font-family: var(--third-font);
   color: var(--color-four);
-  padding-top: 50px;
+  padding-top: 40px;
   font-weight: bold;
 }
 

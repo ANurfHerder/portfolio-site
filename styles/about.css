@@ -54,25 +54,26 @@ body {
 h1 {
   font-family: var(--heading-font);
   color: var(--color-three);
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   font-family: var(--third-font);
   color: var(--color-four);
   padding-top: 0px;
   font-weight: bold;
+  font-size: 25px;
 }
 h3 {
   font-family: var(--third-font);
 
   opacity: 50%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 p {
   font-family: var(--third-font);
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .left {
   background-color: #f5cab883;
@@ -94,8 +95,8 @@ button {
 }
 img {
   transform: scaleX(-1);
-  width: 600px;
-  height: 100%;
+  width: 500px;
+  height: auto;
 }
 @media (max-width: 960px) {
   .container {
