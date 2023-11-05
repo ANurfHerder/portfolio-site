@@ -92,9 +92,6 @@ p {
 body {
   background-color: var(--color-two);
 }
-footer {
-  display: block;
-}
 
 .custom-shape-divider-bottom-1699139842 {
   bottom: 0;
