@@ -1,0 +1,115 @@
+:root {
+  --heading-font: "Agbalumo", sans-serif;
+  --second-font: "Fugaz One", sans-serif;
+  --color-one: #f5cab8;
+  --color-two: #fff8f0;
+  --color-three: #e38ca4;
+  --color-four: #cc8902;
+}
+
+/* Banner */
+.banner {
+  background-color: var(--color-one);
+  overflow: hidden !important;
+  position: relative;
+}
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.banner:before,
+.banner:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+.banner:before {
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    var(--color-one)
+  );
+}
+.banner:after {
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    var(--color-one)
+  );
+}
+.banner:hover .banner-slide {
+  animation-play-state: paused;
+}
+.banner-slide {
+  white-space: nowrap;
+  animation: 35s slide infinite linear;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+/* Navigation */
+.nav {
+  max-width: 100%;
+}
+h1 {
+  font-family: var(--heading-font);
+  color: #cc8902;
+  line-height: 50px;
+  font-size: 60px;
+}
+
+ul {
+  justify-content: space-evenly;
+  color: var(--color-four);
+}
+li {
+  font-family: var(--second-font) !important;
+  line-height: 70px;
+}
+a {
+  text-decoration: none;
+  color: var(--color-four) !important;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #6e4b03 !important;
+}
+
+/* Nav Small */
+.navbar-brand {
+  font-family: var(--heading-font);
+  font-size: 30px;
+}
+.navbar,
+.navbar-toggler {
+  background-color: var(--color-two) !important;
+}
+.navbar-toggler {
+  border: none;
+  color: var(--color-two) !important;
+}
+
+/* Featured Content */
+
+/* Responsive for Phones */
+@media (max-width: 960px) {
+  .banner:before,
+  .banner:after {
+    width: 50px;
+  }
+}
+
+/* Body */
+body {
+  background-color: var(--color-two);
+}
